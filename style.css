@@ -1,0 +1,131 @@
+body {
+    font-family: "Plus Jakarta Sans", sans-serif !important;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.container{
+    flex: 1;
+}
+
+/* navbar */
+.navbar {
+    height: 5rem;
+    background-color: white;
+}
+
+/* icon */
+.fa-compass{
+    color: #fe424d;
+    font-size: 2rem;
+}
+
+/* font of navbar */
+.nav-link {
+    color: #222222;
+}
+
+/* font of footer text */
+.f-info-links a {
+    text-decoration: none;
+    color: #222222;
+}
+
+/* underline ho jaega touch krne pr */
+.f-info-links a:hover {
+    text-decoration: underline;
+}
+
+/* sb horizontal space occupy kr lenge */
+.f-info-links, .f-info-socials, .f-info-brand{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.f-info-socials i{
+    font-size: 1.2 rem;
+    margin-right: 1rem;
+}
+
+/* footer ko sundar bna dia */
+.f-info {
+    height: 8rem;
+    background-color: #ebebeb;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: center;
+    align-items: space-evenly;
+}
+
+/* card ko sundar */
+.listing-card{
+    border: none !important;
+    margin-bottom: 2rem;
+}
+
+.card-img-top{
+    border-radius: 1 rem !important;
+    width: 100% !important;
+    object-fit: cover !important;
+}
+
+.card-body{
+    padding: 0 !important;
+}
+
+.card-text p{
+    font-weight: 400 !important;
+}
+
+.listing-link
+{
+    text-decoration: none;
+}
+
+/* card effect - overlay: image ke upper text */
+.card-img-overlay{
+    opacity: 0;
+}
+
+/* cursor place krne pr hover mtlb thoda change hoga */
+.card-img-overlay:hover{
+    opacity: 0.4;
+    background-color: white;
+}
+
+/* new page adding styling */
+/* bttn ka colour */
+.add-btn
+{
+    background-color: #fe424d !important;
+    border: none !important;
+}
+
+/* edit page adding styling */
+/* btn ka color */
+.edit-btn
+{
+    background-color: #fe424d !important;
+    border: none !important;
+}
+
+/* show page ki styling */
+/* show page img */
+.show-img
+{
+    height: 30vh;
+}
+
+.btns
+{
+    display: flex;
+}
+
+.shoe-card {
+    padding-left: 0;
+    padding-right: 0;
+}
